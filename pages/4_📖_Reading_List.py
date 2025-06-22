@@ -25,6 +25,13 @@ if st.button("➕ Add"):
     conn.commit()
     st.success("Book added.")
 
+# Remove book
+remove_book = st.text_input("Remove a book from your reading list")
+if st.button("❌ Remove"):
+    conn.execute("DELETE FROM reading_list WHERE username=? AND book=?", (st.session_state["user"], remove_book))
+    conn.commit()
+    st.success("Book removed.")
+
 # Show reading list
 cursor = conn.execute("SELECT book FROM reading_list WHERE username=?", (st.session_state["user"],))
 books = cursor.fetchall()

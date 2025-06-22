@@ -76,7 +76,7 @@ llm = AzureChatOpenAI(
     deployment_name=AZURE_DEPLOY,
     model_name="gpt-4o",
     temperature=0.7,
-    max_tokens=300,
+    max_tokens=10000,
     top_p=0.9,
 )
 
