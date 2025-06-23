@@ -53,7 +53,7 @@ except Exception:
 cols = st.columns([1, 2])
 
 with cols[0]:
-    st.subheader("🌐 Web Results (Brave)")
+    st.subheader("Web Results (Brave)")
     for item in brave_results[:5]:
         st.markdown(f"- [{item['title']}]({item['url']})")
 
