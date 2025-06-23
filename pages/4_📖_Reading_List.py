@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS reading_list (
 """)
 conn.commit()
 
-st.title("📖 Your Reading List")
+st.title("📖 Here is your Your Reading List")
 
 # Add new book
 new_book = st.text_input("Add a book to your reading list")
