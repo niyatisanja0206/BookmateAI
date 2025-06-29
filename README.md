@@ -2,8 +2,6 @@
 
 An AI-powered personalized book recommendation and lookup app that suggests books tailored to your reading preferences and fetches information about any book using **Wikipedia**, **DuckDuckGo**, and **GPT-4o (Azure OpenAI)**. Built using **Streamlit**, **LangChain**, and **Azure GPT-4o**.
 
----
-
 ## 🚀 Features
 
 - 🧠 AI-based book recommendation using:
@@ -19,8 +17,6 @@ An AI-powered personalized book recommendation and lookup app that suggests book
 - 📥 Simple and intuitive Streamlit UI
 - 🔐 Secure key management with `.env` support
 
----
-
 ## 🧰 Tech Stack
 
 - Python 3.8+
@@ -30,8 +26,6 @@ An AI-powered personalized book recommendation and lookup app that suggests book
 - DuckDuckGo Search (`duckduckgo-search`)
 - Wikipedia API (`wikipedia`)
 - `python-dotenv` for environment management
-
----
 
 ## 🛠️ Setup Instructions
 
@@ -55,14 +49,10 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
----
-
 ### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ### 4. Create a `.env` File in Project Root
 
@@ -73,21 +63,11 @@ AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o
 AZURE_OPENAI_API_VERSION=2024-05-01-preview
 ```
 
----
-
 ### 5. Run the App
 
 ```bash
 streamlit run app.py
 ```
-
----
-
-## 📌 Screenshots
-
-*(Add screenshots of recommendations and search result sections here)*
-
----
 
 ## 🚧 Future Enhancements
 
@@ -97,13 +77,9 @@ streamlit run app.py
 - 📚 Genre-based trending books
 - 📱 Mobile responsive layout
 
----
-
 ## 🤝 Contributing
 
 Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
-
----
 
 ## 📄 License
 
