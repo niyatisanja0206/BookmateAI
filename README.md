@@ -75,7 +75,6 @@ streamlit run app.py
 - 📦 Firebase/Supabase integration to store preferences
 - 📖 Book previews using Google Books/Open Library API
 - 📚 Genre-based trending books
-- 📱 Mobile responsive layout
 
 ## 🤝 Contributing
 
