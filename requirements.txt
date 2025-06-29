@@ -1,0 +1,9 @@
+streamlit
+firebase-admin
+langchain
+openai
+duckduckgo-search
+wikipedia
+python-dotenv
+requests
+langchain-community
