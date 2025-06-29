@@ -49,7 +49,7 @@ Recommend 10 top books based on:
 
 For each book, give:
 1. A brief (2-4 sentence) summary.
-2. A buy/download link if possible.
+2. A buy/download link of  book if possible.
         """
     )
     return LLMChain(llm=llm, prompt=prompt)
