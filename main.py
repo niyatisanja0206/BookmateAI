@@ -23,7 +23,7 @@ st.markdown("<p style='text-align: center; color: #34495e;'>A personalized readi
 with st.sidebar:
     st.header("🎯 Book Preferences")
     genre = st.selectbox("Choose Genre/type", ["Poetry", "Mythology", "Fiction", "Non-Fiction", "Mystery", "Science Fiction", "Fantasy", "Romance", "Thriller", "Biography", "Self-Help", "History", "Children's", "Young Adult", "Graphic Novel", "Classic Literature", "Horror", "Adventure", "Philosophy", "Religion", "Cookbook", "Travel", "Health & Wellness", "Business", "Politics", "True Crime", "Comics", "Art & Photography", "Science", "Technology", "Sports", "Music", "Drama", "Poetry Anthology", "Western", "Dystopian", "Satire", "Urban Fiction", "Historical Fiction", "Literary Fiction", "Magical Realism", "Chick Lit", "New Adult", "Inspirational", "Spirituality", "Environmental", "Cultural Studies", "Anthropology", "Psychology"])  # Keep your full genre list here
-    language = st.selectbox("Choose Language", ["English", "Hindi", "Gujarati", "Urdu", "Bangali", "French", "Spanish", "German"])
+    language = st.selectbox("Choose Language", ["English", "Hindi", "Gujarati", "Urdu", "Bangali", "French", "Spanish", "German", "Italian"])
     author = st.text_input("Author's name")
     get_recommend = st.button("Recommend Books")
 
